@@ -1,0 +1,38 @@
+<html>
+	<head>
+    <title>Pomodoro Timer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="pomodoro.js"></script>
+    <link rel="stylesheet" href="pomodoro.css">
+	</head>
+	<body>
+		<div class = "left topPad">
+			<div class = "time">
+        <span class = "container">
+          <button id = "plusWork">+</button>
+          <button id = "minusWork">-</button>
+        </span>
+				<div class = "space"></div>
+				<p class = "inline" id = "work">25</p>
+				<p class = "inline">minute work</p>
+			</div>
+			<div class = "time">
+        <span class = "container">
+          <button id = "plusBreak">+</button>
+          <button id = "minusBreak">-</button>
+        </span>
+				<div class = "space"></div>
+				<p class = "inline" id = "break">10</p>
+				<p class = "inline">minute break</p>
+			</div>
+		</div>
+    <div class = "clock">
+      <p class = "inline font" id = "countdown">25</p>
+      <p class = "inline font">:</p>
+      <p class = "inline font" id = "sec">00</p>
+      <p class = "inline space">minutes</p>
+      <p class = "inline" id = "type">work</p>
+      <button class = "start" id = "start">Start</button>
+    </div>
+	</body>
+</html>
